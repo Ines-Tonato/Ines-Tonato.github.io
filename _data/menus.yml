@@ -1,6 +1,6 @@
 main:
-  - name: "Services"
-    url: "/services/"
+  - name: "collections"
+    url: "/collections/"
     weight: 2
   - name: "Post"
     url: "/post/"
@@ -8,8 +8,8 @@ main:
   - name: "About"
     url: "/about/"
     weight: 4
-  - name: "Contact"
-    url: "/contact/"
+  - name: "Tabla"
+    url: "/tabla/"
     weight: 5
   - name: "Menu"
     url: "/menu/"
@@ -17,6 +17,9 @@ main:
   - name: "Pagination"
     url: "/pagination/"
     weight: 7
+  - name: "Estilos"
+    url: "/Estilos/"
+    weight: 8
   
 
 
@@ -24,6 +27,4 @@ footer:
   - name: "Home"
     url: "/"
     weight: 1
-  - name: "Contact"
-    url: "/contact/"
-    weight: 2
+ 

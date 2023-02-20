@@ -1,27 +1,18 @@
 [
   {
-    "title": "Free Consultation",
-    "description": "New clients receive an obligation free consultation.",
+    "title": "Seguridad",
+    "description": "Nuevos tutoriales disponibles de Seguridad",
     "image": {
-      "url": "images/features/noun_branding_1885335.svg",
+      "url": "images/logo1.png",
       "width": 80,
       "height": 80
     }
   },
   {
-    "title": "Certified Accountants",
-    "description": "All members of our post are certified accountants.",
+    "title": "Implantacion",
+    "description": "Nuevos tutoriales disponibles de Implantacion",
     "image": {
-      "url": "images/features/noun_The Process_1885341.svg",
-      "width": 80,
-      "height": 80
-    }
-  },
-  {
-    "title": "Tax Compliance",
-    "description": "We stay up to date on the latest changes to the tax code.",
-    "image": {
-      "url": "images/features/noun_3d modeling_1885342.svg",
+      "url": "images/logo2.png",
       "width": 80,
       "height": 80
     }
