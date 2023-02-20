@@ -12,7 +12,7 @@ logo:
   desktop_width: "120px"
 
 home: 
-  limit_collections: 6
+  limit_collections: 8
 
 collections:
   collections:
