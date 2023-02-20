@@ -18,7 +18,7 @@ collections:
   services:
     output: true
     sort_by: weight
-  team:
+  post:
     output: true
 
 defaults:
@@ -29,9 +29,9 @@ defaults:
       layout: "service"
   - scope:
       path: ""
-      type: "team"
+      type: "posts"
     values:
-      layout: "team"
+      layout: "post"
 
 sass:
   style: compressed # possible values: nested expanded compact compressed
