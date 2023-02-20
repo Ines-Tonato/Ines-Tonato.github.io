@@ -5,6 +5,7 @@ description: Post
 permalink: "/post/"
 intro_image_absolute: true
 intro_image_hide_on_mobile: false
+paginate: 3
 ---
 
 # Aprende más

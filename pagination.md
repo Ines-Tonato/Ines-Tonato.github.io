@@ -3,6 +3,7 @@ title: Menu
 layout: page
 description: pagination
 bodyClass: page-pagination
+
 ---
 
 
@@ -11,7 +12,13 @@ bodyClass: page-pagination
 
 
 
+## Añadimos la línea 6 en el archivo Gemfile
+![Pagination](/images/pagination1.png)
 
-![Menu](/images/)
+## Bundle install para añadir el plugin.
+![Pagination](/images/pagination2.png)
+
+## Añadimos en el MarkDown paginate: 3 que sería la cantidad de post que mostraría en una página
+![Pagination](/images/paginate.png)
 
 
