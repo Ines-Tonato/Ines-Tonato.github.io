@@ -18,27 +18,5 @@ bodyClass: "page-posts"
     </div>
 </div>
 
-<div class="container pt-6 pb-6">
-    <div class="row">
-        {% assign promoted_posts = site.post | where: "promoted", true | sort: "weight" %}
-        {% for post in promoted_posts %}
-        <div class="col-12 col-md-6 mb-2">
-            <div class="post post-summary post-summary-large">
-                {% if post.image %}
-                <div class="post-image">
-                    <img width="90" height="90" alt="{{ post.title }}" class="img-fluid mb-2" src="{{ post.image | relative_url }}" />
-                </div>
-                {% endif %}
-                <div class="post-meta">
-                    <h2 class="post-name"><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-                    <p class="post-description">{{ post.jobtitle }}</p>
-                    {% if post.linkedinurl %}
-                    <a target="_blank" href="{{ post.linkedinurl }}" rel="noreferrer">LinkedIn</a>
-                    {% endif %}
-                </div>
-                <div class="post-content">{{ post.content | truncate: 120 }}</div>
-            </div>
-        </div>
-        {% endfor %}
-    </div>
- 
+
+

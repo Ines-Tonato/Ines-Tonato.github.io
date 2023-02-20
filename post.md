@@ -7,6 +7,17 @@ intro_image_absolute: true
 intro_image_hide_on_mobile: false
 ---
 
-# Meet The post
+# Aprende más
 
-Our post of qualified accountants and financial consultants can help your business at any stage of it's growth.
+Te muestro algunas prácticas que hemos hecho a lo largo del curso
+
+
+
+{% for post in site.posts %}
+  <div class="post">
+    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+    <p>{{ post.date | date_to_string }}</p>
+    <div class="post-content">{{ post.content | truncate: 120 }}</div>
+    <a href="{{ post.url }}">Read more</a>
+  </div>
+{% endfor %}

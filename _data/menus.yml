@@ -2,7 +2,7 @@ main:
   - name: "Services"
     url: "/services/"
     weight: 2
-  - name: "post"
+  - name: "Post"
     url: "/post/"
     weight: 3
   - name: "About"
@@ -11,6 +11,14 @@ main:
   - name: "Contact"
     url: "/contact/"
     weight: 5
+  - name: "Menu"
+    url: "/menu/"
+    weight: 6
+  - name: "Pagination"
+    url: "/pagination/"
+    weight: 7
+  
+
 
 footer:
   - name: "Home"
